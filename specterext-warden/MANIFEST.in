@@ -1,0 +1,5 @@
+recursive-include src/kartik/specterext/warden/templates *
+recursive-include src/kartik/specterext/warden/static *
+recursive-include src/kartik/specterext/warden/*/LC_MESSAGES *.mo
+recursive-include src/kartik/specterext/warden/translations/*/LC_MESSAGES *.po
+include requirements.txt
