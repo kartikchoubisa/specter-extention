@@ -16,7 +16,7 @@ class WardenService(Service):
     logo = "warden/img/logo.jpeg"
     desc = "Where a warden grows bigger."
     has_blueprint = True
-    blueprint_module = "kartik.specterext.warden.controller"
+    blueprint_module = "kartik.specterext.warden.homepage.routes"
     devstatus = devstatus_alpha
     isolated_client = False
 
